@@ -1,0 +1,26 @@
+{
+  "sam": {
+    "Phone": "yyy",
+    "E-mail": "sam@gmail.com"
+  },
+  "goat": {
+    "Phone": "87888888888",
+    "E-mail": "g@a.com"
+  },
+  "dave": {
+    "Phone": "00000000000",
+    "E-mail": "m@gmail.com"
+  },
+  "gads": {
+    "Phone": "66666666666",
+    "E-mail": "a@g.com"
+  },
+  "david": {
+    "Phone": "00000111111",
+    "E-mail": "e@t.com"
+  },
+  "bolu": {
+    "Phone": "87894446765",
+    "E-mail": "b@g.com"
+  }
+}
