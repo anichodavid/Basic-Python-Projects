@@ -3,16 +3,24 @@ import urllib.request   # Import the urllib.request module — used to send HTTP
 
 import json # Import the json module — used to convert JSON text into Python dictionaries
 
+
 import os
-from dotenv import load_dotenv
+
+
+from dotenv import load_dotenv  # To secure your API key 
+
 
 load_dotenv()   # loads variables from .env
 
+
 API_KEY = os.environ.get("WEATHER_API_KEY")  # Store the API key for OpenWeatherMap
+
 
 if not API_KEY:
     print("❌ API key not found. Create a .env file with WEATHER_API_KEY=your_key")
     exit()
+
+
 
 BASE_URL = "https://api.openweathermap.org/data/2.5/weather" # Store the base URL (endpoint) for OpenWeatherMap's current weather API
 
