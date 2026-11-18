@@ -8,8 +8,8 @@ from dotenv import load_dotenv
 
 load_dotenv()   # loads variables from .env
 
- # Store the API key for OpenWeatherMap
-API_KEY = os.environ.get("WEATHER_API_KEY")
+API_KEY = os.environ.get("WEATHER_API_KEY")  # Store the API key for OpenWeatherMap
+
 if not API_KEY:
     print("❌ API key not found. Create a .env file with WEATHER_API_KEY=your_key")
     exit()
