@@ -1,0 +1,20 @@
+[
+  {
+    "city": "Lagos",
+    "temp": 29.61,
+    "description": "overcast clouds",
+    "timestamp": "2026-11-23 09:26"
+  },
+  {
+    "city": "lagos",
+    "temp": 29.61,
+    "description": "overcast clouds",
+    "timestamp": "2026-11-23 09:27"
+  },
+  {
+    "city": "lagos",
+    "temp": 29.61,
+    "description": "overcast clouds",
+    "timestamp": "2026-11-23 09:33"
+  }
+]

@@ -17,7 +17,6 @@ def save_contact(contacts):
 
 
     
-
 def show_menu():
     print ("\n" + "=" * 40)
     print("Welcome to Contact Book!")
